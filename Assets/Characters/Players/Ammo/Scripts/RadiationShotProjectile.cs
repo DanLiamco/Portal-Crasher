@@ -9,6 +9,14 @@ public class RadiationShotProjectile : Projectile
 
     public override void OnTriggerStay2D(Collider2D collision)
     {
+        if (FindObjectOfType<GameManagerObject>())
+        {
+            if (FindObjectOfType<GameManagerObject>().gameManager.gameIsPaused)
+            {
+                return;
+            }
+        }
+
         if (collision.GetComponent<Enemy>())
         {
             if (!collision.GetComponent<Enemy>().enemyActivated)

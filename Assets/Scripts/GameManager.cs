@@ -6,8 +6,6 @@ using UnityEngine;
 public class GameManager : ScriptableObject
 {
     public bool gameIsPaused = false;
-    GameObject pauseScreen;
-    public GameObject pauseScreenPrefab;
 
 
     private void OnEnable()
