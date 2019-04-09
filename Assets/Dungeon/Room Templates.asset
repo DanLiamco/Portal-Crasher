@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42cae564faa1a254f986ce0284abf0b1, type: 3}
+  m_Name: Room Templates
+  m_EditorClassIdentifier: 
+  topRooms:
+  - {fileID: 202858730162591000, guid: 9e61a2b475ee2754e81affd8130b710e, type: 3}
+  - {fileID: 6358549006912488394, guid: 0981913fa27adc24882249521255017d, type: 3}
+  - {fileID: 3451120513302571957, guid: 11a1645262a8b7e43837b4a640513772, type: 3}
+  bottomRooms:
+  - {fileID: 8862002165318448942, guid: 6c6eab997047c044faeac58995080708, type: 3}
+  - {fileID: 6867121951485339713, guid: 46f53ec57095f6946993199e6060243e, type: 3}
+  - {fileID: 202858730162591000, guid: 9e61a2b475ee2754e81affd8130b710e, type: 3}
+  leftRooms:
+  - {fileID: 4969796774890519768, guid: 60596d0cc0a22344da251279a615781a, type: 3}
+  - {fileID: 2924249769140213897, guid: 009da1565f4ef774aad4caf51d368a44, type: 3}
+  - {fileID: 412878521005616127, guid: 5e324a41d04ef0d41840bc85b2dc4c18, type: 3}
+  rightRooms:
+  - {fileID: 412878521005616127, guid: 5e324a41d04ef0d41840bc85b2dc4c18, type: 3}
+  - {fileID: 6858419237292052357, guid: adfc034b4f6d97043b8bded45d5308bc, type: 3}
+  - {fileID: 8983055875134224001, guid: 51a0c9781a9ed454aa666ada765b8411, type: 3}
+  verticalPath: {fileID: 8327741856373085834, guid: 3242486688efadb4e91460e997fa782b,
+    type: 3}
+  horizontalPath: {fileID: 45807291583570885, guid: 7beb12eebf9689944a8b1357eb015d2d,
+    type: 3}
+  starterRooms:
+  - {fileID: 6869443529751059019, guid: 4ed07925897707d4d957ae1124471ff2, type: 3}
+  - {fileID: 5264523598879855212, guid: 1166fd73e8e77dd4ca44872e2eeaca3d, type: 3}
+  - {fileID: 998518125539130346, guid: e826500f77c1e4f4bac04d1350c2bf99, type: 3}
+  - {fileID: 8366746142857429286, guid: f779e8a290ffcd848ac853fb2fcebbcf, type: 3}
+  - {fileID: 8221744374287991834, guid: 43922fcc1295d754e9aab39472eb90cc, type: 3}
+  enemySets:
+  - {fileID: 4957215025523503523, guid: af395497c98f9074cb119bb07606af3f, type: 3}
+  - {fileID: 2242411225920282844, guid: 08c82e68f3f32b54299ac9da7f551f06, type: 3}
+  - {fileID: 8219924786149635911, guid: a197cd690487c1546857eb5fba3f9978, type: 3}
+  - {fileID: 8562702200841104744, guid: d94e7f40b262f9341b42c8c6b816e487, type: 3}
+  - {fileID: 9171842372416648305, guid: f0be4d376df6b03429bf5cba450628a9, type: 3}
+  - {fileID: 7354462661356550894, guid: 121ccb6f437f3774c9ed87c1bef47c5e, type: 3}
+  bossSets:
+  - {fileID: 8000870504143751533, guid: ac926e125cba39d4ba4bda9528bac45b, type: 3}

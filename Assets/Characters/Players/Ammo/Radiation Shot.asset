@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c591124a7bfd3489bde758ecc99c4e, type: 3}
+  m_Name: Radiation Shot
+  m_EditorClassIdentifier: 
+  ammoName: 
+  ammoDescription: 
+  damage: 10
+  projectileSpeed: 10
+  fireRate: 0
+  lifeDuration: 10
+  projectilePrefab: {fileID: 2115987343713152755, guid: fcca5e8e5da71134f82f5fe62a87d719,
+    type: 3}
+  damageRate: 0.1
+  nextDamage: 0
+  radiationDistance: 2
+  radiationPoolLocation: {x: 100, y: 100, z: 100}
+  keyBindings: {fileID: 11400000, guid: 84a992fba9153154184e01351d48a862, type: 2}

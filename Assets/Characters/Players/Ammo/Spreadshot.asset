@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f553be6a1ad0945b91776e87ae7561, type: 3}
+  m_Name: Spreadshot
+  m_EditorClassIdentifier: 
+  ammoName: 
+  ammoDescription: 
+  damage: 10
+  projectileSpeed: 10
+  fireRate: 0.8
+  lifeDuration: 10
+  projectilePrefab: {fileID: 4536523405850855418, guid: 941cf425e5ada2644860b9eea197016b,
+    type: 3}
+  spreadCount: 5
+  spreadAngle: 10
+  knockbackForce: 500
