@@ -6,10 +6,13 @@ using UnityEngine;
 public class GameManager : ScriptableObject
 {
     public bool gameIsPaused = false;
-
-
     private void OnEnable()
     {
         gameIsPaused = false;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
